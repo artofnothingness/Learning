@@ -1,0 +1,4 @@
+/home/alex/Media/Dev/Study Hard/CMake/Step3/build/../bin/Tutorial
+/home/alex/Media/Dev/Study Hard/CMake/Step3/build/../include/TutorialConfig.h
+/home/alex/Media/Dev/Study Hard/CMake/Step3/build/../lib/libMathFunctions.a
+/home/alex/Media/Dev/Study Hard/CMake/Step3/build/../include/MathFunctions.h
