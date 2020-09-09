@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alex/Media/Dev/StudyHard/CMake/CMakeTutorial/Step10/MathFunctions/MathFunctions.cxx
+MathFunctions.h
+/home/alex/Media/Dev/StudyHard/CMake/CMakeTutorial/Step10/MathFunctions/MathFunctions.h
+cmath
+-
+mysqrt.h
+/home/alex/Media/Dev/StudyHard/CMake/CMakeTutorial/Step10/MathFunctions/mysqrt.h
+
+/home/alex/Media/Dev/StudyHard/CMake/CMakeTutorial/Step10/MathFunctions/MathFunctions.h
+
+/home/alex/Media/Dev/StudyHard/CMake/CMakeTutorial/Step10/MathFunctions/mysqrt.h
+

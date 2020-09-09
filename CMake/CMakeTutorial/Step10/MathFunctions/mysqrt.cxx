@@ -14,6 +14,7 @@ double mysqrt(double x)
     return 0;
   }
 
+  int a;
   // use the table to help find an initial value
   double result = x;
   if (x >= 1 && x < 10) {

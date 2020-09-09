@@ -1,14 +1,12 @@
 // A simple program that computes the square root of a number
-#include <cmath>
 #include <iostream>
 #include <string>
 
 #include "TutorialConfig.h"
 
 // should we include the MathFunctions header?
-#ifdef USE_MYMATH
 #  include "MathFunctions.h"
-#endif
+using mathfunctions::sqrt;
 
 int main(int argc, char* argv[])
 {

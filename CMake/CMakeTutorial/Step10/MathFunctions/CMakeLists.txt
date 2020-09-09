@@ -39,7 +39,9 @@ if(USE_MYMATH)
                         POSITION_INDEPENDENT_CODE ${BUILD_SHARED_LIBS}
                         )
 
-  target_link_libraries(MathFunctions PRIVATE SqrtLibrary)
+  target_link_libraries(MathFunctions PRIVATE 
+                        SqrtLibrary
+                        tutorial_compiler_flags)
 endif()
 
 # define the symbol stating we are using the declspec(dllexport) when
