@@ -19,6 +19,8 @@ using vecPairDb = vector<pair<double, double>>;
 class Solution {
   public:
     string longestCommonPrefix(vector<string> &strs) {
+
+
         int max = 0;
         int i = 0;
         string result = ""s;
