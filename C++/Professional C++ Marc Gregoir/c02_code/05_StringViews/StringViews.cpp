@@ -1,35 +1,36 @@
 #include <iostream>
 #include <string>
 #include <string_view>
-#include <cstddef>
 
 using namespace std;
 
-string_view extractExtension(string_view fileName)
-{
-	return fileName.substr(fileName.rfind('.'));
+string_view extractExtension(string_view fileName) {
+  return fileName.substr(fileName.rfind('.'));
 }
 
-int main()
-{
-	// C++ std::string.
-	string fileName = R"(c:\temp\my file.ext)";
-	cout << "C++ string: " << extractExtension(fileName) << endl;
+int main() {
+  int n = 5;
+  int m = 6;
 
-	// C-style string.
-	const char* cString = R"(c:\temp\my file.ext)";
-	cout << "C string: " << extractExtension(cString) << endl;
+  int s = n + m;
+  // C++ std::string.
+  string fileName = R"(c:\temp\my file.ext)";
+  cout << "C++ string: " << extractExtension(fileName) << endl;
 
-	// String literal.
-	cout << "Literal: " << extractExtension(R"(c:\temp\my file.ext)") << endl;
+  // C-style string.
+  const char *cString = R"(c:\temp\my file.ext)";
+  cout << "C string: " << extractExtension(cString) << endl;
 
-	// Raw string buffer with given length.
-	const char* raw = "test.ext";
-	size_t length = 8;
-	cout << "Raw: " << extractExtension(string_view(raw, length)) << endl;
+  // String literal.
+  cout << "Literal: " << extractExtension(R"(c:\temp\my file.ext)") << endl;
 
-	// Assigning the result to a std::string.
-	string extension = extractExtension(fileName).data();
+  // Raw string buffer with given length.
+  const char *raw = "test.ext";
+  size_t length = 8;
+  cout << "Raw: " << extractExtension(string_view(raw, length)) << endl;
 
-	return 0;
+  // Assigning the result to a std::string.
+  string extension = extractExtension(fileName).data();
+
+  return 0;
 }

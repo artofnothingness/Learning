@@ -1,5 +1,5 @@
-#include <cstddef>
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -16,7 +16,6 @@ int main()
 	// Use mySimpleArray...
 	delete[] mySimpleArray;
 	mySimpleArray = nullptr;
-
 
 	const size_t size = 4;
 	Simple** mySimplePtrArray = new Simple*[size];

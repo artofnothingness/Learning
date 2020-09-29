@@ -2,6 +2,7 @@
 #include <stdexcept>
 #include <utility>
 #include <iostream>
+#include <string_view>
 
 using namespace std;
 
@@ -12,6 +13,7 @@ Spreadsheet::Spreadsheet(size_t width, size_t height)
 	cout << "Normal constructor" << endl;
 
 	mCells = new SpreadsheetCell*[mWidth];
+
 	for (size_t i = 0; i < mWidth; i++) {
 		mCells[i] = new SpreadsheetCell[mHeight];
 	}

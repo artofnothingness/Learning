@@ -2,19 +2,17 @@
 
 using namespace std;
 
-class Foo
-{
+class Foo {
 public:
-	Foo(unique_ptr<int> data) : mData(move(data)) { }
+  Foo(unique_ptr<int> data) : mData(move(data)) {}
 
 private:
-	unique_ptr<int> mData;
+  unique_ptr<int> mData;
 };
 
-int main()
-{
-	auto myIntSmartPtr = make_unique<int>(42);
-	Foo f(move(myIntSmartPtr));
+int main() {
+  auto myIntSmartPtr = make_unique<int>(42);
+  Foo f(move(myIntSmartPtr));
 
-    return 0;
+  return 0;
 }

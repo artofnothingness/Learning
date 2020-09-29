@@ -1,32 +1,28 @@
-#include <memory>
 #include <iostream>
+#include <memory>
 
 using namespace std;
 
-class Simple
-{
+class Simple {
 public:
-	Simple() { cout << "Simple constructor called!" << endl; }
-	~Simple() { cout << "Simple destructor called!" << endl; }
+  Simple() { cout << "Simple constructor called!" << endl; }
+  ~Simple() { cout << "Simple destructor called!" << endl; }
 };
 
-void doubleDelete()
-{
-	Simple* mySimple = new Simple();
-	shared_ptr<Simple> smartPtr1(mySimple);
-	shared_ptr<Simple> smartPtr2(mySimple);
+void doubleDelete() {
+  Simple *mySimple = new Simple();
+  shared_ptr<Simple> smartPtr1(mySimple);
+  shared_ptr<Simple> smartPtr2(mySimple);
 }
 
-void noDoubleDelete()
-{
-	auto smartPtr1 = make_shared<Simple>();
-	shared_ptr<Simple> smartPtr2(smartPtr1);
+void noDoubleDelete() {
+  auto smartPtr1 = make_shared<Simple>();
+  shared_ptr<Simple> smartPtr2(smartPtr1);
 }
 
-int main()
-{
-	//doubleDelete();  // BUG, might cause a crash!
-	noDoubleDelete();
+int main() {
+  // doubleDelete();  // BUG, might cause a crash!
+  noDoubleDelete();
 
-	return 0;
+  return 0;
 }

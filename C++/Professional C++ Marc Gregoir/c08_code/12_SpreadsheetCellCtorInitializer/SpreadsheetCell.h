@@ -3,22 +3,21 @@
 #include <string>
 #include <string_view>
 
-class SpreadsheetCell
-{
+class SpreadsheetCell {
 public:
-	SpreadsheetCell() = default;
-	SpreadsheetCell(double initialValue);
-	SpreadsheetCell(std::string_view initialValue);
+  SpreadsheetCell() = default;
+  SpreadsheetCell(double initialValue);
+  SpreadsheetCell(std::string_view initialValue);
 
-	void setValue(double inValue);
-	double getValue() const;
+  void setValue(double inValue);
+  double getValue() const;
 
-	void setString(std::string_view inString);
-	std::string getString() const;
+  void setString(std::string_view inString);
+  std::string getString() const;
 
 private:
-	std::string doubleToString(double inValue) const;
-	double stringToDouble(std::string_view inString) const;
+  std::string doubleToString(double inValue) const;
+  double stringToDouble(std::string_view inString) const;
 
-	double mValue = 0;
+  double mValue = 0;
 };
