@@ -20,7 +20,7 @@ using vecDb = vector<double>;
 using vecPairDb = vector<pair<double, double>>;
 
 class Solution {
-  public:
+public:
     bool isValid(string s) {
         unordered_map<char, char> chars({{'}', '{'}, {']', '['}, {')', '('}});
         stack<char> st;
