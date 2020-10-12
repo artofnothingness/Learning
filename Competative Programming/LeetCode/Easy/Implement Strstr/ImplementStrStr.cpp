@@ -18,8 +18,9 @@ using vecPairInt = vector<pair<int, int>>;
 using vecDb = vector<double>;
 using vecPairDb = vector<pair<double, double>>;
 
-template <typename T> void pVec(vector<T> vec) {
-    for (auto i : vec) {
+template <class T, template <class, class...> class Container>
+void printCont(Container<T> cont) {
+    for (auto i : cont) {
         cout << i << " ";
     }
     cout << endl;

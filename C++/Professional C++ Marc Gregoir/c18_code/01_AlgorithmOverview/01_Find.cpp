@@ -1,46 +1,45 @@
 #include <algorithm>
-#include <vector>
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
-int main()
-{
-	int num;
+int main() {
+    int num;
 
-	vector<int> myVector;
-	while (true) {
-		cout << "Enter a number to add (0 to stop): ";
-		cin >> num;
-		if (num == 0) {
-			break;
-		}
-		myVector.push_back(num);
-	}
+    vector<int> myVector;
+    while (true) {
+        cout << "Enter a number to add (0 to stop): ";
+        cin >> num;
+        if (num == 0) {
+            break;
+        }
+        myVector.push_back(num);
+    }
 
-	while (true) {
-		cout << "Enter a number to lookup (0 to stop): ";
-		cin >> num;
-		if (num == 0) {
-			break;
-		}
-		
-		auto endIt = cend(myVector);
+    while (true) {
+        cout << "Enter a number to lookup (0 to stop): ";
+        cin >> num;
+        if (num == 0) {
+            break;
+        }
 
-		auto it = find(cbegin(myVector), endIt, num);
-		if (it == endIt) {
-			cout << "Could not find " << num << endl;
-		} else {
-			cout << "Found " << *it << endl;
-		}
+        auto endIt = cend(myVector);
 
-		// Using C++17 initializers for if statements:
-		//if (auto it = find(cbegin(myVector), endIt, num); it == endIt) {
-		//	cout << "Could not find " << num << endl;
-		//} else {
-		//	cout << "Found " << *it << endl;
-		//}
-	}
+        auto it = find(cbegin(myVector), endIt, num);
+        if (it == endIt) {
+            cout << "Could not find " << num << endl;
+        } else {
+            cout << "Found " << *it << endl;
+        }
 
-	return 0;
+        // Using C++17 initializers for if statements:
+        // if (auto it = find(cbegin(myVector), endIt, num); it == endIt) {
+        //	cout << "Could not find " << num << endl;
+        //} else {
+        //	cout << "Found " << *it << endl;
+        //}
+    }
+
+    return 0;
 }
