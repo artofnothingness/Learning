@@ -16,8 +16,7 @@
 * Half-Done
     - Clean Arch , Robert C. Martin 
 * In Plan
-    - Head First Design Patterns 
-    - Agile Software Development, Principles, Patterns, and Practices, Robert C. Martin  
+    - Head First Design Patterns Agile Software Development, Principles, Patterns, and Practices, Robert C. Martin  
 
 ## C++ Programming  
 * In Process
@@ -46,7 +45,7 @@
 
 ## Robotics 
 * In Plan
-    - Modern Roboitcs
+    - Modern Robotics
 ## ML / DL
 * In Plan
     - The Deep Learning Book
