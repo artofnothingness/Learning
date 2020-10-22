@@ -39,6 +39,8 @@
 ## Linear Algebra
 * In Process
     - Linear Algebra for Computer Vision, Robotics, and Machine Learning
+    - Linear Algebra & Optimisation for Machine Learning
+
 ## Probability and Statistics
 * In Process
     - Probabilistic Robotics
@@ -46,9 +48,13 @@
 ## Robotics 
 * In Plan
     - Modern Robotics
+
 ## ML / DL
 * In Plan
+    - Mathematics for Machine Learning 
     - The Deep Learning Book
+
+## Computer vision
 
 ## ROS 
 * In Process

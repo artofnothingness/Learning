@@ -1,12 +1,11 @@
-#include <iostream>
 #include <cstring>
+#include <iostream>
 
 using namespace std;
 
-int main()
-{
-	const char* test = "hello there\n";
-	cout.write(test, strlen(test));
+int main() {
+    const char *test = "hello there\n";
+    cout.write(test, strlen(test));
 
-	return 0;
+    return 0;
 }
