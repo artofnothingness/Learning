@@ -55,6 +55,8 @@
     - The Deep Learning Book
 
 ## Computer vision
+* In Plan
+    - Learning OpenCV 3 RU
 
 ## ROS 
 * In Process
@@ -66,3 +68,7 @@
     - Learning ROS for Robotics Programming
     - ROS Robotics Projects. Lentin J.
     - Programming Robots with ROS A Practical Introduction to the Robot Operating System ( Python )
+
+## Electronics & circuitry 
+* In Plan
+    - Хоровиц П., Хилл У. Искусство схемотехники
