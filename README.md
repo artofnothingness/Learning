@@ -21,10 +21,11 @@
 ## C++ Programming  
 * In Process
     - C++ Lectures MIPT
+    - Professional C++, Marc Gregoire 
+    - Exceptional C++, Herb Sutter
 * Done
 * Half-Done
     - ProGit 
-    - Professional C++, Marc Gregoire 
     - C++ High Performance, Victor Sehr 
 * In Plan
     - C++ Template, Complete Guide, Vandervoorde, Josuttis, Gregor
@@ -51,12 +52,13 @@
 
 ## ML / DL
 * In Plan
+    - Глубокое обучение. Погружение в мир нейронных сетей. Николенко С.И.
     - Mathematics for Machine Learning 
     - The Deep Learning Book
 
 ## Computer vision
 * In Plan
-    - Learning OpenCV 3 RU
+    - Learning OpenCV 3
 
 ## ROS 
 * In Process
@@ -72,3 +74,4 @@
 ## Electronics & circuitry 
 * In Plan
     - Хоровиц П., Хилл У. Искусство схемотехники
+    - Справочник Радиолюбителя
