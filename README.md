@@ -22,11 +22,11 @@
 * In Process
     - C++ Lectures MIPT
     - Professional C++, Marc Gregoire 
-    - Exceptional C++, Herb Sutter
 * Done
 * Half-Done
     - ProGit 
     - C++ High Performance, Victor Sehr 
+    - Exceptional C++, Herb Sutter
 * In Plan
     - C++ Template, Complete Guide, Vandervoorde, Josuttis, Gregor
     - Modern C++ Design
@@ -75,3 +75,4 @@
 * In Plan
     - Хоровиц П., Хилл У. Искусство схемотехники
     - Справочник Радиолюбителя
+    - Харрис и Харрис
