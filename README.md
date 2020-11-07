@@ -9,8 +9,6 @@
 * [ROS](#ros)
 
 ## Code Style
-* In Process
-    - Gang of Four, Design Patterns 
 * Done
     - Clean Code , Robert C. Martin
 * Half-Done
@@ -21,10 +19,11 @@
 ## C++ Programming  
 * In Process
     - C++ Lectures MIPT
+    - Craig Scott - Professional CMake A Practical Guide 
     - Professional C++, Marc Gregoire 
 * Done
 * Half-Done
-    - ProGit 
+    - Pro Git 
     - C++ High Performance, Victor Sehr 
     - Exceptional C++, Herb Sutter
 * In Plan
@@ -38,12 +37,13 @@
     - C++ 17 - The Complete Guide (Nicolai M. Josuttis) 
 
 ## Linear Algebra
-* In Process
+* In Plan
     - Linear Algebra for Computer Vision, Robotics, and Machine Learning
     - Linear Algebra & Optimisation for Machine Learning
 
 ## Probability and Statistics
-* In Process
+* In Plan
+    - Писменный. Конспект Лекций
     - Probabilistic Robotics
 
 ## Robotics 
@@ -61,10 +61,8 @@
     - Learning OpenCV 3
 
 ## ROS 
-* In Process
 * Done
     - ROS Robot Programming, TB
-* Half-Done
 * In Plan
     - Effective Robotics Programming with ROS 
     - Learning ROS for Robotics Programming
@@ -73,6 +71,5 @@
 
 ## Electronics & circuitry 
 * In Plan
-    - Хоровиц П., Хилл У. Искусство схемотехники
     - Справочник Радиолюбителя
     - Харрис и Харрис
