@@ -73,3 +73,7 @@
 * In Plan
     - Справочник Радиолюбителя
     - Харрис и Харрис
+
+## Geometry of motion 
+## Algorithms
+
