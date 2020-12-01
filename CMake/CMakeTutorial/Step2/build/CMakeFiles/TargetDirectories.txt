@@ -1,0 +1,3 @@
+/home/alex/Media/Dev/Study Hard/CMake/Step2/build/CMakeFiles/rebuild_cache.dir
+/home/alex/Media/Dev/Study Hard/CMake/Step2/build/CMakeFiles/edit_cache.dir
+/home/alex/Media/Dev/Study Hard/CMake/Step2/build/CMakeFiles/Tutorial.dir

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alex/Media/Dev/Study Hard/CMake/Step7/MathFunctions/MakeTable.cxx
+cmath
+-
+fstream
+-
+iostream
+-
+

@@ -1,0 +1,4 @@
+/home/alex/Media/Dev/Study Hard/CMake/Step7/build/_CPack_Packages/Linux/ZIP/Tutorial-1.0-Linux/bin/Tutorial
+/home/alex/Media/Dev/Study Hard/CMake/Step7/build/_CPack_Packages/Linux/ZIP/Tutorial-1.0-Linux/include/TutorialConfig.h
+/home/alex/Media/Dev/Study Hard/CMake/Step7/build/_CPack_Packages/Linux/ZIP/Tutorial-1.0-Linux/lib/libMathFunctions.a
+/home/alex/Media/Dev/Study Hard/CMake/Step7/build/_CPack_Packages/Linux/ZIP/Tutorial-1.0-Linux/include/MathFunctions.h
