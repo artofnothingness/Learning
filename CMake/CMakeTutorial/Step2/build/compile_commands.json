@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/alex/Media/Dev/Study Hard/CMake/Step2/build",
-  "command": "/usr/bin/c++  -I\"/home/alex/Media/Dev/Study Hard/CMake/Step2/build\" -std=gnu++11 -o CMakeFiles/Tutorial.dir/tutorial.cxx.o -c \"/home/alex/Media/Dev/Study Hard/CMake/Step2/tutorial.cxx\"",
-  "file": "/home/alex/Media/Dev/Study Hard/CMake/Step2/tutorial.cxx"
-}
-]
